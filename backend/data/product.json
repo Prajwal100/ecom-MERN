@@ -1,0 +1,126 @@
+[
+    {
+        "price": 299,
+        "ratings": null,
+        "stock": 10,
+        "numOfReviews": 0,
+        "name": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+        "description": "What happens when you clear away the noisy distractions of the world? Concentration goes to the next level. You get deeper into your music, your work, or whatever you want to focus on. That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about. And that’s just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
+        "images": [
+            {
+                "_id": "6048d01a5dfb88113fbb4b50",
+                "public_id": "products/rzzrakgg34t2chzziwkr",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384601/products/rzzrakgg34t2chzziwkr.jpg"
+            }
+        ],
+        "category": "Headphones",
+        "seller": "Amazon",
+        "reviews": [],
+        "createdAt": "2021-02-09T17:35:36.068Z"
+    },
+    {
+        "price": 126.99,
+        "ratings": 5,
+        "stock": 122,
+        "numOfReviews": 1,
+        "name": "Apple AirPods with Charging Case (Wired)",
+        "description": "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; AirPods (single charge): Up to 5 hours listening time, up to 3 hours talk time or 15 minutes in the case equals up to 3 hours listening time or up to 2 hours talk time.",
+        "images": [
+            {
+                "_id": "6048d0515dfb88113fbb4b51",
+                "public_id": "products/p6dqpozgt2j1990n5zzw",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384657/products/p6dqpozgt2j1990n5zzw.jpg"
+            }
+        ],
+        "category": "Electronics",
+        "seller": "Amazon",
+        "reviews": [],
+        "createdAt": "2021-02-09T17:35:36.068Z"
+    },
+    {
+        "price": 27.99,
+        "ratings": 4.1,
+        "stock": 1123,
+        "numOfReviews": 6,
+        "name": "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
+        "description": "DESIGN INFO - 3.5mm male to 2.5mm male audio cable adapter with Upgraded Flexible, Detachable Boom Mic which also enables rotary Volume Control and Mute Switch. SteelFlex Arm for perfect microphone positioning. INPUT COMPATIBILITY - Devices supporting 3.5mm audio output such as gaming PS4 / Xbox One controller, PC, Laptop, iPhone and Android Phone.",
+        "images": [
+            {
+                "_id": "6048d0905dfb88113fbb4b52",
+                "public_id": "products/s196qxugv4ta4h4flyux",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384720/products/s196qxugv4ta4h4flyux.jpg"
+            }
+        ],
+        "category": "Accessories",
+        "seller": "Amazon",
+        "reviews": [],
+        "createdAt": "2021-02-09T17:35:36.069Z"
+    },
+    {
+        "price": 496.95,
+        "ratings": 4.7,
+        "stock": 131,
+        "numOfReviews": 222,
+        "name": "Nikon D3500 W/ AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Black",
+        "description": "You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500. It's as easy to use as a point-and-shoot, but it takes beautiful DSLR photos and videos that get noticed. It feels outstanding in your hands, sturdy and balanced with controls where you want them. It's compact, durable and versatile, ideal for travel. And it works seamlessly with compatible smartphones, making it easier than ever to share your great photos. Even if you've never picked up a DSLR camera, you can take beautiful pictures with D3500.",
+        "images": [
+            {
+                "_id": "6048d0ad5dfb88113fbb4b53",
+                "public_id": "products/xvqht38qosn6lcp504o5",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384749/products/xvqht38qosn6lcp504o5.jpg"
+            }
+        ],
+        "category": "Cameras",
+        "seller": "Amazon",
+        "reviews": [],
+        "createdAt": "2021-02-09T17:35:36.069Z"
+    },
+    {
+        "price": 949.99,
+        "ratings": 4.9,
+        "stock": 4,
+        "numOfReviews": 56,
+        "name": "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
+        "description": "Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID, Tenth-generation, Intel Core i3 processor, Intel Iris Plus Graphics, Fast SSD storage, 8GB of memory, Stereo speakers with wider stereo sound",
+        "images": [
+            {
+                "_id": "6048d0f15dfb88113fbb4b54",
+                "public_id": "products/c6bwf4dnmtqqou9qj5xi",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384816/products/c6bwf4dnmtqqou9qj5xi.jpg"
+            },
+            {
+                "_id": "6048d0f15dfb88113fbb4b55",
+                "public_id": "products/hysaiedbkoig0wfzvrof",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384816/products/hysaiedbkoig0wfzvrof.jpg"
+            },
+            {
+                "_id": "6048d0f15dfb88113fbb4b56",
+                "public_id": "products/begh7jirc35c8wocfwmb",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384817/products/begh7jirc35c8wocfwmb.jpg"
+            }
+        ],
+        "category": "Laptops",
+        "seller": "Amazon",
+        "reviews": [],
+        "createdAt": "2021-02-09T17:35:36.070Z"
+    },
+    {
+        "price": 2.75,
+        "ratings": 5,
+        "stock": 500,
+        "numOfReviews": 1,
+        "name": "Kauffman Orchards Homegrown McIntosh Apples",
+        "description": "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil McIntosh apples are famous for snacking, pies, salads, and applesauce Protected with soft, high-density foam for safe shipping to your door Not for sale to California, Oregon, or Washington due to state laws governing fresh produce",
+        "images": [
+            {
+                "_id": "6048d12d5dfb88113fbb4b57",
+                "public_id": "products/gia4n77rh1xv4nxrbhxn",
+                "url": "https://res.cloudinary.com/diaubgqhh/image/upload/v1615384877/products/gia4n77rh1xv4nxrbhxn.jpg"
+            }
+        ],
+        "category": "Food",
+        "seller": "Kauffman's Fruit Farm & Market",
+        "reviews": [],
+        "createdAt": "2021-02-09T17:35:36.070Z"
+    }
+]
