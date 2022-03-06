@@ -6,7 +6,8 @@
   "scripts": {
     "start": "backend/server.js",
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
-    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server"
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
+    "seeder":"node backend/utils/seeder.js"
   },
   "author": "Prajwal Rai",
   "license": "ISC",
