@@ -11,13 +11,13 @@ Add your config variables values in the config.env file in backend/config folder
 npm i
 ```
 
-#### INSTALL DEPENDENCIES (Frontend)
+<!-- #### INSTALL DEPENDENCIES (Frontend)
 
 ```
 cd frontend
 npm i
 ```
-
+ -->
 
 
 #### SEED DATABASE
