@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const errorMiddleware = require("./middleware/errors");
 
 app.use(express.json());
-app.search(cookieParser());
+app.use(cookieParser());
 //import all products
 const products = require("./routes/product");
 const auth = require("./routes/auth");

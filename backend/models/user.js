@@ -24,11 +24,11 @@ const userSchema = new mongoose.Schema({
   avatar: {
     public_id: {
       type: String,
-      required: true,
+      required: false,
     },
     url: {
       type: String,
-      required: true,
+      required: false,
     },
   },
   role: {
@@ -54,13 +54,13 @@ userSchema.pre("save", async function (next) {
 
 //compare user password
 
-userSchema.method.comparePassword = async function (enteredPassword) {
-  return await bcrypt.comparee(enteredPassword, this.password);
+userSchema.methods.comparePassword = async function (enteredPassword) {
+  return await bcrypt.compare(enteredPassword, this.password);
 };
 
 // Return JWT token
-userSchema.method.getJwtToken = async function () {
-  return jwt.sign({ id: this.id }, process.env.JWT_SECRET, {
+userSchema.methods.getJwtToken = function () {
+  return jwt.sign({ id: this._id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_TIME,
   });
 };

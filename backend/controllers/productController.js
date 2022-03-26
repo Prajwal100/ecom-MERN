@@ -14,15 +14,15 @@ exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 
 //GET ALL PRODUCTS => /api/v1/products?keyword=apple
 exports.getProducts = catchAsyncErrors(async (req, res, next) => {
-  const APIFeatures = new APIFeatures(Product.find(), req.query).search();
-  const products = await APIFeatures.query;
+  const apiFeatures = new APIFeatures(Product.find(), req.query).search();
+  const products = await apiFeatures.query;
   res.status(200).json({
     success: true,
     products,
     count: products.length,
   });
 });
-//GET SINGLE PRODUCT DETAILS => /api/v1/admin/product/:id
+//GET SINGLE PRODUCT DETAILS => /api/v1/product/:id
 exports.getSingleProduct = catchAsyncErrors(async (req, res, next) => {
   const product = await Product.findById(req.params.id);
 
