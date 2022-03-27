@@ -184,3 +184,36 @@ exports.getUserDetails = async (req, res, next) => {
   }
   res.status(200).json({ user, success: true });
 };
+
+//update user profile => /api/v1/admin/user/:id
+exports.updateUser = catchAsyncErrors(async (req, res, next) => {
+  const newUserData = {
+    name: req.body.name,
+    email: req.body.email,
+    role: req.body.role,
+  };
+  // update avatar
+
+  const user = await User.findByIdAndUpdate(req.params.id, newUserData, {
+    new: true,
+    runValidators: true,
+    useFindAndModify: false,
+  });
+  res.status(200).json({ success: true });
+});
+
+//delete user  => /api/v1/admin/user/:id
+exports.deleteUser = async (req, res, next) => {
+  const user = await User.findById(req.params.id);
+
+  if (!user) {
+    return next(
+      new ErrorHandler(`User does not found with id : ${req.params.id}`)
+    );
+  }
+
+  //remove avatar here
+
+  await user.remove();
+  res.status(200).json({ success: true });
+};
