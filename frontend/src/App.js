@@ -9,9 +9,11 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} exact />
-        </Routes>
+        <div className="container container-fluid">
+          <Routes>
+            <Route path="/" element={<Home />} exact />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>
