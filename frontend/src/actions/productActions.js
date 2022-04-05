@@ -1,4 +1,4 @@
-import axios from "Axios";
+import axios from "axios";
 import {
   ALL_PRODUCTS_SUCCESS,
   ALL_PRODUCTS_REQUEST,

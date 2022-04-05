@@ -15,13 +15,23 @@ exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 
 //GET ALL PRODUCTS => /api/v1/products?keyword=apple
 exports.getProducts = catchAsyncErrors(async (req, res, next) => {
-  const apiFeatures = new APIFeatures(Product.find(), req.query).search();
-  const products = await apiFeatures.query;
-  res.status(200).json({
-    success: true,
-    products,
-    count: products.length,
-  });
+  const resPerPage = 4;
+  const productsCount = await Product.countDocuments();
+
+  const apiFeatures = new APIFeatures(Product.find(), req.query)
+    .search()
+    .filter()
+    .pagination(resPerPage);
+  let products = await apiFeatures.query;
+
+  setTimeout(() => {
+    res.status(200).json({
+      success: true,
+      // count: products.length,
+      productsCount,
+      products,
+    });
+  }, 2000);
 });
 //GET SINGLE PRODUCT DETAILS => /api/v1/product/:id
 exports.getSingleProduct = catchAsyncErrors(async (req, res, next) => {
